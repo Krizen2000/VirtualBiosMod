@@ -1,15 +1,16 @@
 # VirtualBiosMod
 
 #### Bios MOD without hardware flashing requirement
+
 [![download](https://img.shields.io/github/downloads/serdeliuk/VirtualBiosMod/total)](https://github.com/serdeliuk/VirtualBiosMod/releases/download/8/VirtualBiosMod.1.0.8.zip)
 
 ## This source code is licensed under [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.html#preamble)
-## Please read LICENSE.txt for more details
 
+## Please read LICENSE.txt for more details
 
 This virtual mod is not permament and if your new settings goes bad you need to remove cmos battery to reset your settings to factory default.
 
-It was tested only on Asus ROG STRIX G531GT 
+It was tested only on HP 14s-fq1089au (14s-fq1xxx)
 
 This should work with any UEFI bios regardless the operating system, if you have Clover booloader put the VirtualBioosMod.efi in drivers and reboot.<br>
 If your bootloader does not know how to load efi drivers put the VirtualBiosMod.efi on a fat32 usb stick and create in your bios a new boot entry and point to VirtualBiosMod.efi file.<br>
@@ -23,9 +24,11 @@ Use this thread for comments [Virtual Bios Mod without flashing](https://forum.x
 
 Virtual Bios MOD boot screen
 ---
+
 ![VirtualBiosMod](https://github.com/serdeliuk/VirtualBiosMod/blob/master/img/VirtualBiosMod.1.0.8.jpg)
 
 ### Special thanks to
+
 - @LongSoft for [Universal-IFR-Extractor](https://github.com/LongSoft/Universal-IFR-Extractor) and [UEFItool](https://github.com/LongSoft/UEFITool)
 - @Zibri for [afulnx](https://github.com/Zibri/afulnx)
 - @RomanHargrave for [amifldrv](https://github.com/RomanHargrave/amifldrv)
